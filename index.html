@@ -1,11 +1,46 @@
-<html lang="en" class="scroll-smooth"><head>
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
 
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ViaDelWeb - Websites That Convert</title>
     <meta name="description" content="ViaDelWeb is a website agency helping businesses launch fast, rank higher, and grow with sites you fully own.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="author" content="ViaDelWeb">
+    <meta name="theme-color" content="#007bff">
+    <meta name="color-scheme" content="light">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="canonical" href="https://viadelweb.com/">
+
+    <meta property="og:title" content="ViaDelWeb - Websites That Convert">
+    <meta property="og:description" content="ViaDelWeb is a website agency helping businesses launch fast, rank higher, and grow with sites you fully own.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://viadelweb.com/">
+    <meta property="og:site_name" content="ViaDelWeb">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://viadelweb.com/public/assets/images/hero-01.png">
+    <meta property="og:image:alt" content="ViaDelWeb - Websites That Convert">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ViaDelWeb - Websites That Convert">
+    <meta name="twitter:description" content="ViaDelWeb is a website agency helping businesses launch fast, rank higher, and grow with sites you fully own.">
+    <meta name="twitter:image" content="https://viadelweb.com/public/assets/images/hero-01.png">
     <link rel="icon" type="image/svg+xml" href="./public/favicon.svg">
+    <link rel="preload" as="image" href="./public/assets/images/hero-01.png">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "@id": "https://viadelweb.com/#organization",
+            "name": "ViaDelWeb",
+            "url": "https://viadelweb.com/",
+            "email": "hello@viadelweb.com"
+        }
+    </script>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -309,7 +344,7 @@
             <!-- Hero Image / Visual -->
             <div class="relative max-w-5xl mx-auto">
                 <div class="rounded-3xl overflow-hidden shadow-2xl border border-gray-200 bg-gray-100 aspect-video group relative">
-                    <img src="./public/assets/images/hero-01.png" alt="ViaDelWeb hero image" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000">
+                    <img src="./public/assets/images/hero-01.png" alt="ViaDelWeb hero image" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000" loading="eager" decoding="async" fetchpriority="high">
                     
                     <!-- Overlay UI Elements mimicking software -->
                     <div class="absolute top-8 left-8 bg-white/90 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-white/20 transform -rotate-3 hover:rotate-0 transition-transform duration-300 hidden md:block">
@@ -415,7 +450,7 @@
                 
                 <!-- Project 1 (Large) -->
                 <div class="md:col-span-2 rounded-[2rem] overflow-hidden relative group cursor-pointer bg-gray-100">
-                    <img src="./public/assets/images/portfolio-project-saas-01.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="SaaS project">
+                    <img src="./public/assets/images/portfolio-project-saas-01.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="SaaS project" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
                         <span class="text-green-400 font-bold text-sm mb-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">SaaS</span>
                         <h4 class="text-white text-3xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Launch-ready Dashboard</h4>
@@ -424,7 +459,7 @@
 
                 <!-- Project 2 (Tall) -->
                 <div class="md:col-span-1 rounded-[2rem] overflow-hidden relative group cursor-pointer bg-gray-100">
-                    <img src="./public/assets/images/portfolio-project-shopify-01.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="E-commerce project" style="">
+                    <img src="./public/assets/images/portfolio-project-shopify-01.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="E-commerce project" loading="lazy" decoding="async" style="">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
                         <span class="text-pink-300 font-bold text-sm mb-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">E-Commerce</span>
                         <h4 class="text-white text-2xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Storefront Refresh</h4>
@@ -433,7 +468,7 @@
 
                 <!-- Project 3 (Standard) -->
                 <div class="md:col-span-1 rounded-[2rem] overflow-hidden relative group cursor-pointer bg-gray-100">
-                    <img src="./public/assets/images/portfolio-project-localrestaurant-01.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Local business project">
+                    <img src="./public/assets/images/portfolio-project-localrestaurant-01.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Local business project" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                         <div class="bg-white/10 backdrop-blur-md border border-white/20 px-6 py-3 rounded-full text-white font-bold">View Case Study</div>
                     </div>
@@ -441,7 +476,7 @@
 
                 <!-- Project 4 (Wide) -->
                 <div class="md:col-span-2 rounded-[2rem] overflow-hidden relative group cursor-pointer bg-gray-100">
-                    <img src="./public/assets/images/hero-02.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Website build">
+                    <img src="./public/assets/images/hero-02.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Website build" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
                         <span class="text-orange-300 font-bold text-sm mb-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">Web Build</span>
                         <h4 class="text-white text-3xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">High-Performance Landing</h4>
